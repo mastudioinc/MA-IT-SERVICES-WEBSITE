@@ -268,7 +268,7 @@ window.addEventListener("load", () => {
     if (!loader) return;
 
     setTimeout(() => {
-        loader.classList.add("hide");
-    }, 1500);
+    loader.classList.add("hide");
+}, 650);
 
 });
