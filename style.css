@@ -866,18 +866,24 @@ footer {
         padding:0 15px;
     }
 .logo{
-    max-width:65%;
-    gap:8px;
-    overflow:hidden;
+    width:auto;
+    gap:6px;
 }
 
 .logo span{
-    display:none;
+    display:block;
+    font-size:12px;
+    font-weight:700;
+    color:#fff;
+    white-space:nowrap;
+    letter-spacing:0.5px;
 }
-
+.header{
+    justify-content:space-between;
+}
 .menu-btn{
     position:absolute;
-    right:20px;
+    right:15px;
     top:50%;
     transform:translateY(-50%);
     margin-left:0;
