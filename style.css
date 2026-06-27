@@ -944,17 +944,13 @@ footer {
 }
 
 .logo img{
-    width:70px;
+    width:120px;
     height:auto;
 }
 
 .logo span{
-    font-size:14px;
-    font-weight:700;
-    white-space:nowrap;
-    color:#fff;
+    display:none !important;
 }
-
 }/* MOBILE MENU BUTTON FIX */
 
 /* FINAL MOBILE MENU FIX */
