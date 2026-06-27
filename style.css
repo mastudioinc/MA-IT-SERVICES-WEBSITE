@@ -866,8 +866,9 @@ footer {
         padding:0 15px;
     }
 .logo{
-    max-width:75%;
+    max-width:65%;
     gap:8px;
+    overflow:hidden;
 }
 
 .logo span{
@@ -875,8 +876,13 @@ footer {
 }
 
 .menu-btn{
-    margin-left:auto;
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    margin-left:0;
     z-index:1001;
+    font-size:30px;
 }
 }/* ==========================
    MOBILE OPTIMIZATION PART 2
